@@ -1,0 +1,67 @@
+.main-footer-section{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 100vw;
+    height: 70vh;
+    background-color: #000;
+    color: #fff;
+    padding: 50px 70px;
+}
+
+.main-footer-section >p{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.footer-part{
+    width: 30%;
+    height: 250px;
+    /* background-color: beige; */
+    padding: 20px;
+}
+
+.footer-part h3{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+.footer-contact-ancor{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;  
+}
+.footer-contact-ancor a{
+    color: #fff;
+    text-decoration: none;
+}
+.footer-contact-ancor a:hover{
+    color: #afa2a2;
+}
+.cafe p{
+    line-height: 1.4rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.icon{
+    width: 25px;
+    height: 25px;
+}
+.opening-hour p{
+   text-align: center;
+   margin: 20px 0;
+}

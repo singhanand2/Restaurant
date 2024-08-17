@@ -1,0 +1,67 @@
+.promotions{
+    /* background-color: aqua; */
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.promotion-card{
+    display: flex;
+    padding: 20px 60px;
+     width: 35%;
+     height: 200px;
+    color: #fff;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+    background-color: #000;
+    border-radius: 5px;
+   
+}
+.promotion-card img{
+   height: 150px;
+   width: 150px;
+   border: 4px solid yellow;
+   border-radius: 50%;
+}
+.promotion-content {
+    width: 50%;
+}
+.promotion-title{
+    font-size: 1.7rem;
+    margin-bottom: 10px;
+}
+.promotion-discount{
+    font-size: 1.7rem;
+    margin-bottom: 10px;
+}
+.btn-Order-Now{
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 10px 15px;
+    background-color: #f1a809;
+    border: none;
+    border-radius: 30px;
+}
+
+@media only screen and (max-width: 760px) {
+    .promotions{
+        /* background-color: aqua; */
+        width: 100vw;
+        height: 80vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    
+    }
+    .promotion-card{
+      
+         width: 85%;
+         height: 220px;
+       
+    }
+     
+   }

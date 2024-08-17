@@ -1,0 +1,88 @@
+.main-BookTable-section{
+    width: 100vw;
+    height: 100vh;
+    padding: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.left-BookTable-Section{
+    width: 50%;
+    height: 100%;
+    padding: 0 20px;
+}
+.left-BookTable-Section h3{
+    text-align: start;
+    font-size: 2rem;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.left-BookTable-Section form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+input{
+    width: 450px;
+    height: 40px;
+    padding: 10px;
+    font-size: 1.2rem;
+}
+.submit-button{
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(235, 162, 5);
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.Right-BookTable-Section{
+    width: 100%;
+    height: 80%;
+    
+    /* padding: 40px; */
+    /* background-color: rebeccapurple; */
+}
+
+.Right-BookTable-Section iframe{
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+@media only screen and (max-width: 760px) {
+   
+    .main-BookTable-section{
+       
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        padding: 10px;
+    }
+    .left-BookTable-Section{
+        width: 50%;
+        height: 100%;
+        padding: 0 ;
+    }
+    input{
+        width: 250px;
+        height: 40px;
+        padding: 10px;
+        font-size: 1.2rem;
+    }
+
+    .Right-BookTable-Section{
+        width: 350px;
+        height: 440px;
+        
+        /* padding: 40px; */
+        /* background-color: rebeccapurple; */
+    }
+
+   }
